@@ -1,0 +1,72 @@
+{
+  "assistant_name": "DEX",
+  "user_name": "Operator",
+  "active_suit": "mark57",
+  "protocol": "STANDBY",
+  "subsystems": {
+    "reactor": 96,
+    "repulsors": 84,
+    "thrusters": 78,
+    "shielding": 90,
+    "sensors": 95
+  },
+  "quiet_hours": {
+    "start": 23,
+    "end": 7,
+    "enabled": false
+  },
+  "theme": "cyberpunk_aura",
+  "animations": {
+    "enabled": true,
+    "waveform_bars": 24,
+    "aura_pulse": true
+  },
+  "layout": {
+    "density": "balanced",
+    "show_waveform": true,
+    "show_feed": true
+  },
+  "audio": {
+    "input_device": "auto",
+    "output_device": "auto",
+    "mic_gain": 1.0,
+    "sample_rate_in": 16000,
+    "sample_rate_out": 24000
+  },
+  "voice": {
+    "stt_provider": "auto",
+    "tts_provider": "system",
+    "voice_name": "en-gb",
+    "auto_speak": false
+  },
+  "wakeword": {
+    "enabled": false,
+    "provider": "openwakeword",
+    "phrase": "hey dex",
+    "threshold": 0.5,
+    "cooldown_s": 2.0,
+    "model_path": "providers/wakewords/hey_dex.onnx",
+    "inference_framework": "onnx"
+  },
+  "ai": {
+    "provider": "gemini",
+    "gemini_model": "gemini-2.5-flash",
+    "gemini_live_model": "gemini-2.5-flash-native-audio-preview-12-2025",
+    "openai_base_url": "https://api.openai.com/v1",
+    "openai_model": "gpt-4o-mini"
+  },
+  "shortcuts": {
+    "settings": "s",
+    "voice_primary": "ctrl+space",
+    "voice_fallback": "ctrl+g"
+  },
+  "performance": {
+    "tick_ms": 180,
+    "telemetry_interval_s": 2.0,
+    "background_scheduler": true
+  },
+  "disabled_plugins": [],
+  "disabled_actions": [],
+  "approved_plugins": [],
+  "boot_time": 1795709266.1503248
+}

@@ -1,0 +1,6 @@
+{
+  "name": "J.A.R.V.I.S. Terminal",
+  "description": "Python-powered Iron Man J.A.R.V.I.S. terminal interface with live system diagnostics, Mark armor telemetry, and AI command intelligence.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
